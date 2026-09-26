@@ -1,0 +1,19 @@
+{
+  "name": "rate-limit-header-inspector",
+  "version": "0.1.0",
+  "description": "Inspect rate-limit headers and model retry timing from captured responses.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "lint": "node --check src/index.mjs && node --check src/json-keys.mjs && node --check src/cli.mjs && node --check bin/rate-limit-header-inspector.mjs",
+    "test": "node --test",
+    "check": "npm run lint && npm test"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edilec/rate-limit-header-inspector"
+  }
+}

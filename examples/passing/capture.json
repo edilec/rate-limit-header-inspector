@@ -1,0 +1,1 @@
+{"schemaVersion":"1","complete":true,"responses":[{"status":429,"capturedAt":"2026-01-01T00:00:00Z","headers":{"Date":"Thu, 01 Jan 2026 00:00:00 GMT","Retry-After":"120","RateLimit-Limit":"100","RateLimit-Remaining":"0"}}]}
